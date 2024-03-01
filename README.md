@@ -16,6 +16,9 @@
    * Max pooling layer and dropout layer where dropout is applied for every max pooling layer
    * A Global Average pooling layer which reduces x * y * channels to 1 * 1* channels
    * A Fully connected layer which converts the channels/features obtained from GAP to desired number of class (i.e 10)
+
+<img width="1052" alt="image" src="https://github.com/das91t70/S6/assets/161017685/ef19b16a-3c1f-40c2-a8f8-472f7e4f5ad0">
+
  
 * We have trained the model with learning rate as 0.01 and momentum as 0.9 and used optimizer as SGD with scheduler as StepLR. Upon testing the model, we achieved accuracy of 99.40% at 17th epoch.
 
