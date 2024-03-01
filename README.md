@@ -11,7 +11,8 @@ As part of this, we need to do forward propagation for the nneural network below
 
 All the parameters involved and its description is provided below.
 
-<img width="1052" alt="image" src="https://github.com/das91t70/S6/assets/161017685/78db7d6d-bd44-40b0-8639-639262440895">
+<img width="979" alt="image" src="https://github.com/das91t70/S6/assets/161017685/bfe1dade-4399-4ff9-8cd6-f010793f2d14">
+
 
 ### As part of backward propagation, initially we compute partial derivatives and then update the weights with new value 
 
