@@ -4,7 +4,8 @@
 
 As part of this, we need to do forward propagation for the nneural network below to compute values of the neurons and then do backpropagation to minimise the loss between actual value and predicted value.
 
-<img width="1052" alt="image" src="https://github.com/das91t70/S6/assets/161017685/7375c58c-a647-49aa-93c6-fd67246359b2">
+<img width="607" alt="image" src="https://github.com/das91t70/S6/assets/161017685/6e375c1f-cce1-4a00-a8d0-6f1d62efe199">
+
 
 ### Forward Propagation
 
