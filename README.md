@@ -2,10 +2,60 @@
 
 ## Part 1
 
+As part of this, we need to do forward propagation for the nneural network below to compute values of the neurons and then do backpropagation to minimise the loss between actual value and predicted value.
+
+<img width="1052" alt="image" src="https://github.com/das91t70/S6/assets/161017685/7375c58c-a647-49aa-93c6-fd67246359b2">
+
+### Forward Propagation
+
+All the parameters involved and its description is provided below.
+
+<img width="1052" alt="image" src="https://github.com/das91t70/S6/assets/161017685/78db7d6d-bd44-40b0-8639-639262440895">
+
+### As part of backward propagation, initially we compute partial derivatives and then update the weights with new value 
+
+* updated weight will be w = w - (learning_rate) * ( partial_derivate (output, w))
+
+<img width="361" alt="image" src="https://github.com/das91t70/S6/assets/161017685/905bb03e-a287-4674-b712-9fd62883dd9f">
+
+
+### After backpropagation, weights and neurons are changed as below
+
+![image](https://github.com/das91t70/S6/assets/161017685/76648035-00f1-47ca-ab6c-8677ad0340eb)
+
+### Find how the error graph is changing with the learning rates
+
+for the learning rate *0.1*,
+
+<img width="361" alt="image" src="https://github.com/das91t70/S6/assets/161017685/b86d8a72-87df-45f7-9a04-1d759588c9e6">
+
+
+for the learning rate *0.2*
+
+<img width="361" alt="image" src="https://github.com/das91t70/S6/assets/161017685/7fc6065b-9556-4192-af58-030e9494a342">
+
+for the learning rate *0.5*
+
+<img width="361" alt="image" src="https://github.com/das91t70/S6/assets/161017685/05e0e5f9-4c85-417b-937c-2e44f584186d">
+
+for the learning rate *0.8*
+
+<img width="361" alt="image" src="https://github.com/das91t70/S6/assets/161017685/06403f20-2c62-4d66-a9a7-7c269379dda2">
+
+for the learning rate *1.0*
+
+<img width="361" alt="image" src="https://github.com/das91t70/S6/assets/161017685/0a12c9b8-216a-4210-aa11-fc03828bf5b2">
+
+
+for the learning rate *2.0*
+
+<img width="361" alt="image" src="https://github.com/das91t70/S6/assets/161017685/5765d1dd-6f31-495b-b3f2-dd733eb6845f">
+
+
 
 ## Part 2
 
-### As part of this project,
+As part of this project,
 
 * ***README.md*** will describe what this project comprises and how it is organized and what are we trying to achieve
 * ***S6.ipynb*** - It includes code for building model for MNIST dataset, loading dataset and training and evaluating model with data. 
